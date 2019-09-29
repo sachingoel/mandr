@@ -1,5 +1,5 @@
 # m&r
-Test Asiignment for McKinley & Rice
+Test Assignment for McKinley & Rice
 
 # start instruction
  To run the app plese run the below commands

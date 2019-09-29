@@ -1,0 +1,26 @@
+module.exports={
+  "authKeys":{
+    "google":{
+      "client_id":"*******",
+      "project_id":process.env.google_projectId,
+      "auth_uri":"https://accounts.google.com/o/oauth2/auth",
+      "token_uri":"https://www.googleapis.com/oauth2/v3/token",
+      "auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs",
+      "client_secret":"*******",
+      "callback_url":"http://localhost:5454/auth/google/callback"
+    },
+    "facebook":{
+      "app_id"    :"413**412",
+      "app_secret":"43***2134",
+      "callback_url":"http://localhost:5454/auth/facebook/callback"
+    },
+    "aws":{
+      "access_key":process.env.aws_clientId,
+      "secret_key":process.env.aws_secretId
+    }
+  },
+  "mongodb":{
+    "server":"localhost",
+    "port":27017
+  }
+}
